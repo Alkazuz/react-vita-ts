@@ -21,8 +21,8 @@
 
 .card .card_left{
   position: relative;
-  padding: 30px;
-  background-color: #535bf2;
+  padding: 60px;
+  background-color: #2a3652;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
@@ -81,7 +81,7 @@ h1 {
 }
 
 body{
-  background-color: aquamarine;
+  background-color: #988bee;
 }
 
 button {
