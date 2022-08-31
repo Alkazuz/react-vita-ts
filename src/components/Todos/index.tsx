@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import api from '@services/api.ts';
+import api from '/src/services/api.ts';
 
 const Todos: React.FC = () => {
 
@@ -23,7 +23,7 @@ const Todos: React.FC = () => {
         <>
             <div className="todos_container">
                {todos.map(todo =>  (
-                    <div className="todos">
+                    <div key={todo.id} className="todos">
                         <span>{todo.title}</span> - <a> {
                             todo.completed ? 'Concluido' : 'Incompleto'
                         }

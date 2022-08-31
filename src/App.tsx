@@ -2,12 +2,12 @@ import React from 'react'
 
 import './App.css'
 
-import Todos from './components/Todos';
+import Card from './components/Card';
 
 function App() {
   return (
     <>
-      <Todos/>
+      <Card/>
     </>);
 }
 
