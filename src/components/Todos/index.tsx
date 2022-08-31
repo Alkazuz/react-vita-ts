@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import api from '/src/services/api.ts';
+import api from '@services/api.ts';
 
 const Todos: React.FC = () => {
 
